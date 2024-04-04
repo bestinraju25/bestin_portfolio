@@ -14,7 +14,7 @@ html {
 }
 body {
 	font-family: Inter, sans-serif;
-	background-color: black;
+	background-color: silver;
 	color: white;
 }
 
@@ -27,7 +27,14 @@ a {
 	color: white;
 }
 .description {
-	margin-top: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: var(--text-color);
+}
+.description_contact {
+	margin-top: 2rem;
 	font-size: 1.5rem;
 	font-weight: 400;
 	color: var(--text-color);
@@ -82,7 +89,7 @@ a {
 .group-2 {
 	display: flex;
 	flex-direction: column;
-	gap: 5rem;
+	gap: 1rem;
 }
 .group-3 {
 	max-width: 700px;
@@ -166,7 +173,11 @@ a {
 
 /* eduction */
 .edu_item {
-	margin-top: 2rem;
+	margin-top: 1rem;
+}
+.edu {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 /* certification */
