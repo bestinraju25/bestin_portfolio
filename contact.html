@@ -1,171 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Raju Driving School</title>
+<html>
+<head>
+    <title>Bestin Raju - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- main css -->
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/marquee.css" />
-    <link rel="stylesheet" href="css/flexslider.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    
-    
-    <!-- main css -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <main>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form action="https://formspree.io/f/xldrbpgz" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body class="innermain">
-  <header>
-  	<div class="container">
-  		<div class="row">
-  		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 logo">
-  				<img class="mainlogo"  src="images/logo.svg">
-  			</div>
-  			
-  			
-  			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 top_social">
-  				<ul>
-  					<li><a href="#"><img src="images/facebook_icon.png"></a></li>
-  					<li><a href="#"><img src="images/media_icon.png"></a></li>
-  					<li><a href="#"><img src="images/twitter_icon.png"></a></li>
-  				</ul>
-  			</div>
+    </main>
 
-  			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 top_call">
-  				<div class="content">
-			<div class="simple-marquee-container">
-				<div class="marquee-sibling">
-					Call Now : 
-				</div>
-				<div class="marquee">
-					<ul class="marquee-content-items">
-						<li>Perumanoor : 09388852851</li>
-						<li>Marine Drive : 0484 237 3279</li>
-						<li>Thoppumpady Rd, Veli, Palluruthy : 0484 222 0023</li>
-						<li>Karuvelipady, Thoppumpady : 0484 222 0023</li>
-						<li>Moulana Azad Rd, Thoppumpady : 0484 222 0023</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+    <footer>
+        <div class="footer">
+            <p>© 2021 - Bestin Raju</p>
+        </div>
+    </footer>
 
-
-  			</div>
-  		</div>
-
-
-
-
-  	</div>
-  </header>
-
-<section class="menu">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">MENU</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="classes.html">Driving Classes</a></li>
-        <li><a href="branches.html">Branches</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="http://www.keralamvd.gov.in/" target="_blank">RTO</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li class="active"><a href="contact.html">Contact us</a></li>
-      </ul>
-     
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-<div class="container">
-	<div class="row">
-    <div class="col-xs-12 branches">
-		<img src="images/inner05.jpg" class="innerimg">
-        <h1>CONTACT US</h1>
-       
-       <span>Pandit Karuppan Road, Perumanoor,Thevara , Kochi, Kerala 682015 <br>
-		   Contact Number :   88 91 007 808
-</span>
-       
-       <span>Behind Athira Silks, Highcourt junction,  Ernakulam, Kerala 682031 <br>
-		   Contact Number: 0484 237 32 79 
-</span>
-
-<span>Opposit Palluruthy Veli Busstop, Veli, Palluruthy, Kochi, Kerala 682006 <br>
-	Contact Number: 0484 223 39 33
-</span>
-
-<span>Near Vandana Furniture shop, Aroor Temple junction, Alappuzha, 688534 <br>
-	Contact Number: +91 77 36 067 675
-</span>
-
-<span>Rameshwaram Temple Road, Karuvelippadi, Thoppumpady, Kochi, Kerala 682005 <br>
-	Contact Number : 93 88 282 958</span>
-       
-    </div>
-	</div>
-
-</div>
-
-
-
-
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				© 2020 Raju Driving School. All Rights Reserved
-			</div>
-			
-		</div>
-	</div>
-</footer>
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- all js files -->
-    <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/marquee.js"></script>
-    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
-    
-  </body>
+</body>
 </html>
