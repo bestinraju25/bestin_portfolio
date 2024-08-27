@@ -103,10 +103,72 @@
   flex-direction: column;
   justify-content: center;
 }
-.features2-image-container {
-  height: 100%;
+.hero-content2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
   display: flex;
   position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero-row-container1 {
+  width: 100%;
+}
+.features2-image-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero-placeholder-image10 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image11 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image12 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image13 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image14 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image15 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image16 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image17 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image18 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image19 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image20 {
+  width: 400px;
+  height: 400px;
+}
+.hero-placeholder-image21 {
+  width: 400px;
+  height: 400px;
 }
 .features2-image1 {
   animation-name: fadeIn;
@@ -139,5 +201,10 @@
   }
   .features2-tabs-menu {
     order: 2;
+  }
+}
+@media(max-width: 767px) {
+  .hero-content2 {
+    width: 100%;
   }
 }
